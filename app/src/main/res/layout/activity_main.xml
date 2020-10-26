@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="说明:\n"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="部分机型:小米手机,vivo,oppo, 需要在设置->权限管理->开启锁屏显示   部分手机需要开启后台启动页面权限\n\n"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="大部分10.0手机需要开启在其他应用上层展示权限"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_check_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点我去开启10.0权限"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+</LinearLayout>
